@@ -534,19 +534,20 @@ footer {
   #burger {
     display: none;
   }
-  .footer_ul_1 img {
-    display: none;
-  }
-}
-@media only screen and (min-width: 426px) {
-  .benefits {
-    display: none;
-  }
-  .benefits p {
-    display: none;
-  }
-  #burger {
-    display: none;
+
+  @media only screen and (min-width: 426px) {
+    .benefits {
+      display: none;
+    }
+    .benefits p {
+      display: none;
+    }
+    #burger {
+      display: none;
+    }
+    .footer_ul_1 img {
+      display: none;
+    }
   }
 }
 @media only screen and (max-width: 426px) {
